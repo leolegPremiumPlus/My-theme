@@ -14,13 +14,13 @@
 
 :root {
 	/* APP ELEMENTS */
-	--app-bg: url(https://i.imgur.com/01o9bgv.jpeg); /*OCEAN https://i.imgur.com/7ILrzuy.jpeg        |        RED https://i.imgur.com/01o9bgv.jpeg        |        YELLOW https://i.imgur.com/Fhiwnjn.jpeg       |       ANIMATED https://i.imgur.com/hiwjktr.gif*/
-	--app-blur: 0px;
+	--app-bg: url(https://i.imgur.com/Fhiwnjn.jpeg); /*OCEAN https://i.imgur.com/7ILrzuy.jpeg        |        BLUE https://i.imgur.com/puw4drw.jpeg       |       RED https://i.imgur.com/01o9bgv.jpeg        |        YELLOW https://i.imgur.com/Fhiwnjn.jpeg       |       ANIMATED https://i.imgur.com/hiwjktr.gif*/
+	--app-blur: ; /*5px*/
 	--app-margin: 0px;
 	--app-radius: 8px;
 
 	/* ACCENT HSL AND TEXT COLOR SETTINGS */
-	--accent-hue: 350; /*--accent-hue: 50;*/
+	--accent-hue: 410; /*RED 350;*/
 	--accent-saturation: 77.5%;
 	--accent-lightness: 47.1%; /*--accent-lightness: 65.1%;*/
 	--accent-opacity: 1;
@@ -51,7 +51,7 @@
 
 	/* CARD SETTINGS */
 	--card-color: hsl(0,0%,0%,0.4);
-	--card-color-hover: hsl(0,0%,0%,0.5);
+	--card-color-hover: hsl(0,0%,0%,0.7);
 	--card-color-select: hsl(0,0%,0%,0.7);
 
 	/* BUTTON SETTINGS */
@@ -114,7 +114,7 @@
 .inner_c0bea0 {
 	background:
 		linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-		url(https://i.imgur.com/01o9bgv.jpeg) !important; /*https://i.imgur.com/jG1FO5t.png*/
+		url(https://i.imgur.com/Fhiwnjn.jpeg) !important; /*https://i.imgur.com/1FIhCIz.jpeg   https://i.imgur.com/jG1FO5t.png*/
 	background-size: cover !important;
 	background-position: center !important;
 	border-radius: 10px !important;
@@ -140,7 +140,7 @@
 .listHeight_affa7e,
 .scroller_affa7e,
 .list_d1405b,
-.thin_d125d2,
+/*.thin_d125d2, /* channel list */
 .wrapper__14245,
 .categoryHeader_d1405b,
 .header__14245 {
@@ -149,8 +149,10 @@
 }
 
 .itemsContainer_ef3116 {
-	margin-top: -65px !important;
-	background-color: rgba(0, 0, 0, 0) !important;
+	margin-top: -67px !important;
+	/*background-color: rgba(0, 0, 0, 0.3) !important;*/
+	position: relative;
+	/*border: 1px solid rgba(0, 0, 0, 0.1);*/
 }
 
 .stack_dbd263,
@@ -184,8 +186,8 @@
 .scroller__6b0e0 {
 	position: relative;
 	background-image:
-		linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-		url(https://i.imgur.com/01o9bgv.jpeg) !important; /*https://i.imgur.com/jG1FO5t.png*/
+		linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+		url(https://i.imgur.com/Fhiwnjn.jpeg) !important; /*https://i.imgur.com/1FIhCIz.jpeg   https://i.imgur.com/jG1FO5t.png*/
 	background-size: cover !important;
 	background-position: center !important;
 	overflow: hidden;
@@ -443,3 +445,21 @@
 	background: rgba(0, 0, 0, 0) !important;
 }
 */
+
+.container__8a031,
+.size-md__8a031,
+.padding-size-sm__8a031 {
+	background-color: rgba(0, 0, 0, 0);
+	backdrop-filter: blur(5px);
+}
+
+.item__133bf,
+.addFriend__133bf,
+.item_aa8da2,
+.themed_aa8da2 {
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+
+[aria-label="Add Friend"] {
+	background: rgba(0, 0, 0, 0.3) !important;
+}
