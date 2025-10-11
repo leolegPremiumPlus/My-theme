@@ -302,7 +302,7 @@
 .modalBg_de2fa0,
 .modalBody_de2fa0,
 .modalContent_de2fa0 {
-	background: rgba(0, 0, 0, 0) !important;
+	background: rgba(0, 0, 0, 0) !important
 }
 
 .container_cec934,
@@ -453,13 +453,71 @@
 	backdrop-filter: blur(5px);
 }
 
-.item__133bf,
-.addFriend__133bf,
-.item_aa8da2,
-.themed_aa8da2 {
+[aria-label="Add Friend"] {
+	background: hsl(var(--accent-hue), var(--accent-saturation), var(--accent-lightness)) !important;;
+}
+
+.container__34c2c {
+	background: rgba(0, 0, 0, 0) !important;
+}
+
+.emptyStateIcon__7641b {
+	background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.box_ee23ac {	
+	background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.box_ee23ac::after {
+    border-top: 10px solid rgba(0, 0, 0, 0.2) !important;
+}
+
+.content_a2f514 {
+	border-radius: 20px !important;
+	background: rgba(0, 0, 0, 0.3) !important;
+}
+
+.badge__86331 {
+	background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.mainCard_f369db,
+.header_f369db {
+	background: rgba(0, 0, 0, 0.2) !important;
+}
+
+.lineClamp2Plus__4bd52,
+.heading-lg\/semibold_cf4812,
+.defaultColor__5345c,
+.postTitleText_faa96b {
+	color: rgb(215, 215, 215) !important;
+}
+
+.stack_dbd263 textarea::placeholder {
+	color: rgb(192, 192, 192) !important;
+}
+
+.matchingPostsRow_f369db {
+	background: rgba(0, 0, 0, 0.3) !important;
+}
+
+.none_d125d2 {
+	background-color: rgba(0, 0, 0, 0.2) !important;
+}
+
+.stack_dbd263 {
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.applicationStreamingPreviewWrapper__00943 {
 	background: rgba(0, 0, 0, 0.1) !important;
 }
 
-[aria-label="Add Friend"] {
-	background: rgba(0, 0, 0, 0.3) !important;
+.section__00943 {
+	background: rgba(0, 0, 0, 0.1) !important;
+}
+
+.outer_bf1984.interactive_bf1984:hover {
+	background: rgba(0, 0, 0, 0.1) !important;
 }
